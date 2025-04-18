@@ -59,7 +59,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 • Programming: C/C++, Python for Linux(ROS) and Embedded Systems(RTOS)  
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
 • Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking
-
+<!-- 
 ## Research
 ---
 ### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](/posts/SledNav)
@@ -86,7 +86,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 ### [Wheeled Robot for RoboMaster University Series Competition](/posts/RobotWheeled)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/rm/hero2.jpg" width="200px" alt="hero"/> The RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts. It requires participants to go beyond their textbooks to form robotics teams, develop a diverse fleet of robots, and participate in team battles. I participated RMU2021 with my teammates as leader of the Electric Control Group. We design schemes, make circuit boards, and debug embedded programs. We tirelessly tested and optimized our robots, and endured countless sleepless nights. It' a memorable and cherished time.</p>
-</div>
+</div> -->
 
 
 ---
