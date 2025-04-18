@@ -7,7 +7,7 @@ order: 4
 <!-- Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-> If you have any questions or suggestions, please feel free to contact <kbd>nealea123@163.com</kbd> or <kbd>yhxu@hust.edu.cn</kbd>. Welcome to exchange!
+> If you have any questions or suggestions, please feel free to contact <kbd>zwt190315@163.com</kbd> or <kbd>wentaozhang@hust.edu.cn</kbd>. Welcome to exchange!
 {: .prompt-tip }
 
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-# Yaohang XU (许耀航)
-I am a highly-motivated person interested in robotics. My research goal is to build agile, safe, intelligent, and autonomous mobile robot systems. So my research lies in the intersection of robotics, planning, optimization, and control. Since 2023, I have been pursuing a M.Sc. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) under the supervision of Prof. Lijun Zhu. I received my B.Eng. in the School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) in 2023.
+# Wentao Zhang (张文涛)
+I am a highly-motivated person interested in robotics. My research goal is to build agile, safe, intelligent, and autonomous mobile robot systems. So my research lies in the intersection of robotics, planning, optimization, and control. Since 2022, I have been pursuing a M.Sc. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) under the supervision of Prof. Lijun Zhu. I received my B.Eng. in the School of Control Engineering at Northeastern University at Qinhuangdao (NEUQ) in 2022.
 
 <!-- <center class="half">
     <img src="/images/rm/robots.jpg" width="400"/>
@@ -18,7 +18,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 <!-- <p style="margin-top: 10px;">chigui-2 motion video in May, 2022</p> -->
 <!-- Where I spent wonderful time with my friends, teammates, and teachers. -->
 
-<!-- <img class="center" src="/images/rm/robots.jpg" width="600px"  alt="robots" /> -->
+<img class="center" src="/images/rm/robots.jpg" width="600px"  alt="robots" />
 <!-- ![robots](/images/rm/robots.jpg) -->
 
 <!-- ## Education
@@ -29,7 +29,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 *Bachelor* in Technique and Instrumentation of Measurements (GPA 92.22/100)   -->
 
 
-<!-- <div style="border: 0px solid #1182BF; padding: 4px;">
+<div style="border: 0px solid #1182BF; padding: 4px;">
     <h3><b>News</b></h3>
     <ul>
         <li><em>Jun. 2024</em>: Two paper (1st, 2nd author) have been accepted by IROS 2024.</li>
@@ -42,7 +42,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
             <li><i>May. 2024</i>: Participated in ICRA 2024 (Yokohama, Japan). Honorary to present an Oral Presentation!</li>
         </ul>
     </details> -->
-</div> -->
+</div>
 
 
 ## Awards & Honors
