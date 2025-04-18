@@ -127,7 +127,7 @@ paginate: 5 # The number of posts displayed on the home page
 # paginate_path: "projects/page:num/" # The pagination path of the home page
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/nealea123"
 
 # ------------ The following options are not recommended to be modified ------------------
 
