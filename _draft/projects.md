@@ -3,7 +3,7 @@ layout: page
 icon: fas fa-archive
 order: 1
 ---
-
+<!-- 
 ### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](/posts/SledNav)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/slednav/sledrobotoutdoor.jpg" width="500px" alt="sledrobotoutdoor"/> Inspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system presents challenges arising from the nonholonomic constraints of the trailer, system underactuation, and hybrid interaction through the cable. To tackle these challenges, we develop a hybrid dynamics model that accounts for the cable's taut/slack status. Since it is computationally intense to directly optimize the trajectory, we first propose a search algorithm to compute a sub-optimal trajectory as the initial solution. Then, a novel collision avoidance constraint based on the geometric shapes of objects is proposed to formulate the trajectory optimization problem for the hybrid system. The proposed trajectory planning method is implemented on a Unitree A1 quadruped robot with a customized cable-trailer and validated through experiments.</p>
@@ -28,4 +28,4 @@ order: 1
 ### [Wheeled Robot for RoboMaster University Series Competition](/posts/RobotWheeled)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/rm/hero2.jpg" width="200px" alt="hero"/> The RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts. It requires participants to go beyond their textbooks to form robotics teams, develop a diverse fleet of robots, and participate in team battles. I participated RMU2021 with my teammates as leader of Electric Control Group. We design schemes, make circuit boards, and debug embedded programs. We tirelessly tested and optimized our robots, and endured countless sleepless nights. It' a memorable and cherished time.</p>
-</div>
+</div> -->
