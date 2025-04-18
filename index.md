@@ -90,6 +90,6 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 
 
 ---
-<div style="text-align: center">
+<!-- <div style="text-align: center">
     <a href="https://m.maploco.com/details/71f666nh"><img style="border:0px;" src="https://www.maploco.com/vmap/10366253.png" alt="Locations of Site Visitors" title="Locations of Site Visitors"/></a>  
-</div>
+</div> -->
