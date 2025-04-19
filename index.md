@@ -91,5 +91,6 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 
 ---
 <div style="text-align: center">
-    <a href="https://m.maploco.com/details/71f666nh"><img style="border:0px;" src="https://www.maploco.com/vmap/10366253.png" alt="Locations of Site Visitors" title="Locations of Site Visitors"/></a>  
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=2uJwIG0jM_OYRghIzbeKfiHVNtKTI0CquU-ywbYBOK0&cl=ffffff&w=a"></script>
+    <!-- <a href="https://m.maploco.com/details/71f666nh"><img style="border:0px;" src="https://www.maploco.com/vmap/10366253.png" alt="Locations of Site Visitors" title="Locations of Site Visitors"/></a>   -->
 </div>
