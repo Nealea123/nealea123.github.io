@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4001/</id>
+  <id>http://localhost:4001/nealea123/</id>
   <title>Yaohang Xu</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-19T16:54:58+08:00</updated>
+  <updated>2025-04-19T17:19:39+08:00</updated>
   <author>
     <name>your_full_name</name>
-    <uri>http://localhost:4001/</uri>
+    <uri>http://localhost:4001/nealea123/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4001/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4001/nealea123/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4001/"/>
+    href="http://localhost:4001/nealea123/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 your_full_name </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/nealea123/assets/img/favicons/favicon.ico</icon>
+  <logo>/nealea123/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot</title>
-    <link href="http://localhost:4001/posts/SledNav/" rel="alternate" type="text/html" title="Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot" />
+    <link href="http://localhost:4001/nealea123/posts/SledNav/" rel="alternate" type="text/html" title="Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot" />
     <published>2024-04-05T00:00:00+08:00</published>
   
     <updated>2025-04-19T14:28:58+08:00</updated>
   
-    <id>http://localhost:4001/posts/SledNav/</id>
-    <content type="text/html" src="http://localhost:4001/posts/SledNav/" />
+    <id>http://localhost:4001/nealea123/posts/SledNav/</id>
+    <content type="text/html" src="http://localhost:4001/nealea123/posts/SledNav/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -48,13 +48,13 @@ Inspired by the utilization of dogs in sled-pulling for transportation, we intro
   
   <entry>
     <title>Agile and Safe Trajectory Planning for Quadruped Navigation with Motion Anisotropy Awareness</title>
-    <link href="http://localhost:4001/posts/AgileNav/" rel="alternate" type="text/html" title="Agile and Safe Trajectory Planning for Quadruped Navigation with Motion Anisotropy Awareness" />
+    <link href="http://localhost:4001/nealea123/posts/AgileNav/" rel="alternate" type="text/html" title="Agile and Safe Trajectory Planning for Quadruped Navigation with Motion Anisotropy Awareness" />
     <published>2024-03-15T00:00:00+08:00</published>
   
     <updated>2025-04-19T14:28:58+08:00</updated>
   
-    <id>http://localhost:4001/posts/AgileNav/</id>
-    <content type="text/html" src="http://localhost:4001/posts/AgileNav/" />
+    <id>http://localhost:4001/nealea123/posts/AgileNav/</id>
+    <content type="text/html" src="http://localhost:4001/nealea123/posts/AgileNav/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -75,13 +75,13 @@ Quadruped robots demonstrate robust and agile movements in various terrains; how
   
   <entry>
     <title>Multi-Robot Systems Planning Framework</title>
-    <link href="http://localhost:4001/posts/MultiAgent/" rel="alternate" type="text/html" title="Multi-Robot Systems Planning Framework" />
+    <link href="http://localhost:4001/nealea123/posts/MultiAgent/" rel="alternate" type="text/html" title="Multi-Robot Systems Planning Framework" />
     <published>2023-09-15T00:00:00+08:00</published>
   
     <updated>2025-04-19T14:28:58+08:00</updated>
   
-    <id>http://localhost:4001/posts/MultiAgent/</id>
-    <content type="text/html" src="http://localhost:4001/posts/MultiAgent/" />
+    <id>http://localhost:4001/nealea123/posts/MultiAgent/</id>
+    <content type="text/html" src="http://localhost:4001/nealea123/posts/MultiAgent/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -102,13 +102,13 @@ After multiple optimization iterations, we developed and deployed the complete n
   
   <entry>
     <title>Spherical Robotic chigui</title>
-    <link href="http://localhost:4001/posts/Robotchigui/" rel="alternate" type="text/html" title="Spherical Robotic chigui" />
+    <link href="http://localhost:4001/nealea123/posts/Robotchigui/" rel="alternate" type="text/html" title="Spherical Robotic chigui" />
     <published>2022-07-01T00:00:00+08:00</published>
   
     <updated>2025-04-19T14:28:58+08:00</updated>
   
-    <id>http://localhost:4001/posts/Robotchigui/</id>
-    <content type="text/html" src="http://localhost:4001/posts/Robotchigui/" />
+    <id>http://localhost:4001/nealea123/posts/Robotchigui/</id>
+    <content type="text/html" src="http://localhost:4001/nealea123/posts/Robotchigui/" />
     <author>
       <name>your_full_name</name>
     </author>
@@ -129,13 +129,13 @@ The spherical robot Chigui integrates the drive principles of Barycenter Offset 
   
   <entry>
     <title>Wheeled Robot ROBOMASTER</title>
-    <link href="http://localhost:4001/posts/RobotWheeled/" rel="alternate" type="text/html" title="Wheeled Robot ROBOMASTER" />
+    <link href="http://localhost:4001/nealea123/posts/RobotWheeled/" rel="alternate" type="text/html" title="Wheeled Robot ROBOMASTER" />
     <published>2021-12-30T00:00:00+08:00</published>
   
     <updated>2025-04-19T14:28:58+08:00</updated>
   
-    <id>http://localhost:4001/posts/RobotWheeled/</id>
-    <content type="text/html" src="http://localhost:4001/posts/RobotWheeled/" />
+    <id>http://localhost:4001/nealea123/posts/RobotWheeled/</id>
+    <content type="text/html" src="http://localhost:4001/nealea123/posts/RobotWheeled/" />
     <author>
       <name>your_full_name</name>
     </author>

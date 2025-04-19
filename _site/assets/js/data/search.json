@@ -2,7 +2,7 @@
   
   {
     "title": "Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot",
-    "url": "/posts/SledNav/",
+    "url": "/nealea123/posts/SledNav/",
     "categories": "research, planning",
     "tags": "nonholonomic motion planning, underactuated robots, collision avoidance",
     "date": "2024-04-05 00:00:00 +0800",
@@ -19,7 +19,7 @@
   
   {
     "title": "Agile and Safe Trajectory Planning for Quadruped Navigation with Motion Anisotropy Awareness",
-    "url": "/posts/AgileNav/",
+    "url": "/nealea123/posts/AgileNav/",
     "categories": "research, planning",
     "tags": "quadruped robot, motion and path planning, collision avoidance",
     "date": "2024-03-15 00:00:00 +0800",
@@ -36,7 +36,7 @@
   
   {
     "title": "Multi-Robot Systems Planning Framework",
-    "url": "/posts/MultiAgent/",
+    "url": "/nealea123/posts/MultiAgent/",
     "categories": "research, planning",
     "tags": "legged robots, multi-agent systems, motion and path planning",
     "date": "2023-09-15 00:00:00 +0800",
@@ -53,7 +53,7 @@
   
   {
     "title": "Spherical Robotic chigui",
-    "url": "/posts/Robotchigui/",
+    "url": "/nealea123/posts/Robotchigui/",
     "categories": "research, robotics",
     "tags": "nonholonomic motion planning, underactuated robots, optimization and optimal control",
     "date": "2022-07-01 00:00:00 +0800",
@@ -70,7 +70,7 @@
   
   {
     "title": "Wheeled Robot ROBOMASTER",
-    "url": "/posts/RobotWheeled/",
+    "url": "/nealea123/posts/RobotWheeled/",
     "categories": "engineering, control",
     "tags": "mobile robot",
     "date": "2021-12-30 00:00:00 +0800",

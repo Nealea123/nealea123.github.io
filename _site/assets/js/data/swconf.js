@@ -1,29 +1,29 @@
 const swconf = {
   
-    cacheName: 'chirpy-1745052905',resources: [
-      '/assets/css/jekyll-theme-chirpy.css',
-      '/',
+    cacheName: 'chirpy-1745054389',resources: [
+      '/nealea123/assets/css/jekyll-theme-chirpy.css',
+      '/nealea123/',
       
-        '/publications/',
+        '/nealea123/publications/',
       
-        '/categories/',
+        '/nealea123/categories/',
       
-        '/archives/',
+        '/nealea123/archives/',
       
-        '/tags/',
+        '/nealea123/tags/',
       
-        '/about/',
+        '/nealea123/about/',
       
 
       
       
-        '/assets/js/dist/categories.min.js',
-        '/assets/js/dist/commons.min.js',
-        '/assets/js/dist/home.min.js',
-        '/assets/js/dist/misc.min.js',
-        '/assets/js/dist/page.min.js',
-        '/assets/js/dist/post.min.js',
-        '/assets/js/dist/theme.min.js'
+        '/nealea123/assets/js/dist/categories.min.js',
+        '/nealea123/assets/js/dist/commons.min.js',
+        '/nealea123/assets/js/dist/home.min.js',
+        '/nealea123/assets/js/dist/misc.min.js',
+        '/nealea123/assets/js/dist/page.min.js',
+        '/nealea123/assets/js/dist/post.min.js',
+        '/nealea123/assets/js/dist/theme.min.js'
     ],
 
     interceptor: {paths: [
