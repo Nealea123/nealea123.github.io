@@ -23,7 +23,7 @@ Huazhong University of Science and Technology - School of Artificial Intelligenc
 
 
 ## Framework
-![System Overview](images/agilenav/systemoverview.bmp)
+![System Overview](/images/agilenav/systemoverview.bmp)
 **Key Function**:The entire real-time navigation implementation, including: coarse path search, segmented trajectory optimization, trajectory tracking.  
 `fast_navigation`:Navigation Manage  
 `lazykinoprm`:Kinodynamic Trajectory Generation  

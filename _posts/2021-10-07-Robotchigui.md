@@ -10,8 +10,8 @@ tags: [nonholonomic motion planning, underactuated robots, optimization and opti
 The spherical robot Chigui integrates the drive principles of Barycenter Offset (BCO) and Conservation of Angular Momentum (COAM), propelled by three motors with two reaction wheels. Employing the Euler-Lagrange system dynamics model based on the d’Alembert principle, we analyze the robot's motion behavior and introduce three basic robot motions to simplify the dynamics model and derive equations for external torque input motion. We design a cascade controller for the robot's basic motion and establish a ROS-Gazebo physical simulation platform for algorithm testing. Additionally, we assemble mechanical structures, develop a hardware control system, and author embedded real-time control code for experimentation.
 
 ## Mechanical Structure, Modeling and Control
-![Ctrl](images/ballbot/chiguiCtrl.bmp)
-![Iteration](images/ballbot/chiguiIteration.bmp)
+![Ctrl](/images/ballbot/chiguiCtrl.bmp)
+![Iteration](/images/ballbot/chiguiIteration.bmp)
 
 ## Video
 
