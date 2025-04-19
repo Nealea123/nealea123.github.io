@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /images/person/island.png
+avatar: images/person/island.png
 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
@@ -227,5 +227,5 @@ jekyll-archives:
     category: category
     tag: tag
   permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+    tag: tags/:name/
+    category: categories/:name/
