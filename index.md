@@ -91,5 +91,5 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 
 ---
 <div style="text-align: center">
-    <a href="https://clustrmaps.com/site/1c5lx"  title="ClustrMaps"><img src="https://www.clustrmaps.com/map_v2.png?d=2uJwIG0jM_OYRghIzbeKfiHVNtKTI0CquU-ywbYBOK0&cl=ffffff" /></a>
+    <a href="https://m.maploco.com/details/bd968osl"><img style="border:0px;" src="https://www.maploco.com/vmap/s/10483077.png" alt="Locations of Site Visitors" title="Locations of Site Visitors"/></a>   
 </div>
