@@ -151,7 +151,7 @@ pwa:
 # paginate: 10
 # paginate_path: "home/page:num/"
 # The base URL of your site
-baseurl: ""
+baseurl: "/nealea123"
 
 # ------------ The following options are not recommended to be modified ------------------
 

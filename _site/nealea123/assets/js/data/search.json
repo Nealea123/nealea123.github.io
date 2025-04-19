@@ -1,0 +1,89 @@
+[
+  
+  {
+    "title": "Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot",
+    "url": "/posts/SledNav/",
+    "categories": "research, planning",
+    "tags": "nonholonomic motion planning, underactuated robots, collision avoidance",
+    "date": "2024-04-05 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "IntroductionInspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system pres...",
+    "content": "IntroductionInspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system presents challenges arising from the nonholonomic constraints of the trailer, system underactuation, and hybrid interaction through the cable. To tackle these challenges, we develop a hybrid dynamics model that accounts for the cable’s taut/slack status. Since it is computationally intense to directly optimize the trajectory, we first propose a search algorithm to compute a sub-optimal trajectory as the initial solution. Then, a novel collision avoidance constraint based on the geometric shapes of objects is proposed to formulate the trajectory optimization problem for the hybrid system. The proposed trajectory planning method is implemented on a Unitree A1 quadruped robot with a customized cable-trailer and validated through experiments.  A preprint of the paper is available at arXivMotivationMethodExperimentWe validate our planning method through numerical simulation and conduct real-world experiments in various scenarios to demonstrate its effectiveness. The trajectory optimization problem is formulated using CasADi, with IPOPT serving as the solver.Experiment result: tractor average speed ≈1m/s, trailer position error &lt;10cm, and trailer yaw angle error &lt;5.25° (calculated by motion capture system)"
+  },
+  
+  {
+    "title": "Agile and Safe Trajectory Planning for Quadruped Navigation with Motion Anisotropy Awareness",
+    "url": "/posts/AgileNav/",
+    "categories": "research, planning",
+    "tags": "quadruped robot, motion and path planning, collision avoidance",
+    "date": "2024-03-15 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "IntroductionQuadruped robots demonstrate robust and agile movements in various terrains; however, their navigation autonomy is still insufficient. One of the challenges is that the motion capabilit...",
+    "content": "IntroductionQuadruped robots demonstrate robust and agile movements in various terrains; however, their navigation autonomy is still insufficient. One of the challenges is that the motion capabilities of the quadruped robot are anisotropic along different directions, which significantly affects the safety of quadruped robot navigation. This paper proposes a navigation framework that takes into account the motion anisotropy of quadruped robots including  kinodynamic trajectory generation, nonlinear trajectory optimization, and nonlinear model predictive control. In simulation and real robot tests, we demonstrate that our motion-anisotropy-aware navigation framework could: (1) generate more efficient trajectories and realize more agile quadruped navigation; (2) significantly improve the navigation safety in challenging scenarios. The implementation is realized as an open-source package at ZWT006/agile_navigation: Quadruped Robot Planning ROS Package (github.com)  A preprint of the paper is available at arXiv, which is accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024MethodWe proposed a hierarchical planning framework that specifically addresses the omnidirectional motion anisotropy (OMA) in different level.FrameworkOur planning framework is implemented in C++ with ROS as a communication middleware. For numerical solving of NTO problem, we utilize the general optimization solver NLopt and employ the gradient-based local optimization method MMA(Method of Moving Asymptotes).Real-world result (calculated with Lidar-Odometry FAST_LIO):\\[v_{\\max}=2.87\\mathrm{m}/\\mathrm{s},\\omega _{\\max}=2.22\\mathrm{rad}/\\mathrm{s}\\]"
+  },
+  
+  {
+    "title": "Multi-Robot Systems Planning Framework",
+    "url": "/posts/MultiAgent/",
+    "categories": "research, planning",
+    "tags": "legged robots, multi-agent systems, motion and path planning",
+    "date": "2023-09-15 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "IntroductionAfter multiple optimization iterations, we developed and deployed the complete navigation framework, encompassing both hardware and software. The hardware is characterized by its compac...",
+    "content": "IntroductionAfter multiple optimization iterations, we developed and deployed the complete navigation framework, encompassing both hardware and software. The hardware is characterized by its compactness and lightweight design. Meanwhile, the software integrates perception, planning, and control functionalities, facilitating the seamless deployment of various algorithms. Several of our projects leverage this framework, spanning quadruped robot navigation, formation control, collaboration, and flocking.FrameworkResearchDistributed Model Predictive Formation Control with Gait Synchronization for Multiple Quadruped Robots      We present a fully distributed framework for multiple quadruped robots in environments with obstacles. It is notable that all the robots are able to avoid obstacles, navigate to the desired positions, and meanwhile synchronize the gaits.Optimization-Based Flocking Control and MPC-Based Gait Synchronization Control for Multiple Quadruped Robots      We focus on the flocking control and gait  synchronization control of multiple quadruped robots to achieve the movement during patrol tasks. To achieve these goals, we  propose an optimization-based distributed flocking controller and  a model predictive control (MPC)-based gait synchronization controller.Observer-based Distributed MPC for Collaborative Quadrotor-Quadruped Manipulation of a Cable-Towed Load (Finalist for the IEEE-ICRA2024 Best Conference Paper Award)      We presents a collaborative quadrotor-quadruped  robot system for the manipulation of a cable-towed payload. In particular, we aim to solve the challenge from the unknown dynamics of the cable-towed payload. The proposed system is validated through challenging  field experiments in indoor and outdoor environments."
+  },
+  
+  {
+    "title": "Spherical Robotic chigui",
+    "url": "/posts/Robotchigui/",
+    "categories": "research, robotics",
+    "tags": "nonholonomic motion planning, underactuated robots, optimization and optimal control",
+    "date": "2022-07-01 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "IntroductionThe spherical robot Chigui integrates the drive principles of Barycenter Offset (BCO) and Conservation of Angular Momentum (COAM), propelled by three motors with two reaction wheels. Em...",
+    "content": "IntroductionThe spherical robot Chigui integrates the drive principles of Barycenter Offset (BCO) and Conservation of Angular Momentum (COAM), propelled by three motors with two reaction wheels. Employing the Euler-Lagrange system dynamics model based on the d’Alembert principle, we analyze the robot’s motion behavior and introduce three basic robot motions to simplify the dynamics model and derive equations for external torque input motion. We design a cascade controller for the robot’s basic motion and establish a ROS-Gazebo physical simulation platform for algorithm testing. Additionally, we assemble mechanical structures, develop a hardware control system, and author embedded real-time control code for experimentation.Mechanical Structure, Modeling and ControlVideo    chigui-2 motion video in May, 2022ConclusionIn real-world testing, the robot’s basic motions align with theoretical analysis, demonstrating the controller’s ability to drive the robot through these motions, with the potential for complex motion combinations. Future endeavors will concentrate on refining motion control precision, including optimizing the dynamic model, analyzing nonlinear control system intricacies, and devising trajectory planning methods with dynamic constraints."
+  },
+  
+  {
+    "title": "Wheeled Robot ROBOMASTER",
+    "url": "/posts/RobotWheeled/",
+    "categories": "engineering, control",
+    "tags": "mobile robot",
+    "date": "2021-12-30 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "BackgroundThe RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts. It requires participants to go b...",
+    "content": "BackgroundThe RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts. It requires participants to go beyond their textbooks to form robotics teams, develop a diverse fleet of robots, and participate in team battles.I participated RMU2021 with my teammates as leader of the Electric Control Group. We design schemes, make circuit boards, and debug embedded programs. We tirelessly tested and optimized our robots, and endured countless sleepless nights. It’s a memorable and cherished time.FrameworkRobotsInfantryHero"
+  }
+  
+]
+
