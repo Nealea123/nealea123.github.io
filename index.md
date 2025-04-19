@@ -35,13 +35,13 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
         <li><em>Jun. 2024</em>: Two paper (1st, 2nd author) have been accepted by IROS 2024.</li>
         <li><em>May. 2024</em>: Participated in ICRA 2024 (Yokohama, Japan). Honorary to present an Oral Presentation!</li>
     </ul>
-    <!-- <details>
+    <details>
         <summary><b>Old News</b></summary>
         <ul>
             <li><i>May. 2024</i>: Participated in ICRA 2024 (Yokohama, Japan). Honorary to present an Oral Presentation!</li>
             <li><i>May. 2024</i>: Participated in ICRA 2024 (Yokohama, Japan). Honorary to present an Oral Presentation!</li>
         </ul>
-    </details> -->
+    </details>
 </div> -->
 
 
