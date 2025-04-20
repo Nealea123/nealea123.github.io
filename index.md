@@ -59,6 +59,13 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
 • Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking
 
+## Research
+---
+### [Prescribed-Time Robust Synchronization of Networked Heterogeneous Euler-Lagrange Systems](posts/ArmPaper)
+<div style="border: 0px solid #1182BF;padding: 4px;">
+    <p> <img class="left" src="/images/arm/arm.png" width="500px" alt="sledrobotoutdoor" /> In this paper, we propose a prescribed-time synchronization (PTS) algorithm for networked Euler-Lagrange systems subjected to external disturbances. Notably, the system matrix and the state of the leader agent are not accessible to all agents. The algorithm consists of distributed prescribed-time observers and local prescribed-time tracking controllers, dividing the PTS problem into prescribed-time convergence of distributed estimation errors and local tracking errors. Unlike most existing prescribed-time control methods, which achieve prescribed-time convergence by introducing specific time-varying gains and adjusting feedback values, we establish a class of KT functions and incorporate them into comparison functions to represent time-varying gains. By analyzing the properties of class KT and comparison functions, we ensure the prescribed-time convergence of distributed estimation errors and local tracking errors, as well as the uniform boundedness of internal signals in the closed-loop systems. External disturbances are handled and dominated by the time-varying gains that tend to infinity as time approaches the prescribed time, while the control signal is still guaranteed to be bounded. Finally, a numerical example and a practical experiment demonstrate the effectiveness and innovation of the algorithm.</p>
+</div>
+
 ## Project
 ---
 ### [ACT Imitation Learning of Operate Box with ROS/Gazebo simulation](posts/GazeboSim)
