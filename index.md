@@ -2,7 +2,7 @@
 layout: page
 ---
 # Yaohang Xu (许耀航)
-I am a highly-motivated person interested in robotics. My research goal is to build agile, safe, intelligent, and autonomous mobile robot systems. So my research lies in the intersection of robotics, planning, optimization, and control. Since 2023, I have been pursuing a M.Sc. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) under the supervision of Prof. Lijun Zhu. I received my B.Eng. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) in 2023.
+I am a highly-motivated person interested in robotics. My research goal is to establish a robot system with high generalization, robustness, intelligence and the ability to independently complete complex and dexterous long-series operation tasks. So my research is the intersection of robots, dexterous operation, large models and reinforcement learning. Since 2023, I have been pursuing a M.Sc. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) under the supervision of Prof. Lijun Zhu. I received my B.Eng. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) in 2023.
 
 <!-- <center class="half">
     <img src="/images/rm/robots.jpg" width="400"/>
@@ -44,21 +44,13 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
     </details>
 </div> -->
 
-<html>
-<body>
-<div style="text-align: center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-zkP5HXGnP4?si=oCwRMgIF-jOYYoM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <p style="margin-top: 10px;">chigui-2 motion video in May, 2022</p>
-</div>
-</body>
-</html>
 ## Awards & Honors
 ---
-• National Scholarship for Undergraduates(2019, National Level)  
-• National Inspiration Scholarship for Undergraduates(2020, 2021, National Level)  
-• National College Robot Competition ROBOMASTER(2021, Third Prize)  
-• Northeastern University Outstanding Graduate(2022, University Level)  
-• Northeastern University Outstanding Graduation Thesis(2022, University Level)  
+• National College Robot Competition ROBOCON(2024, Second Place of National First Prize)  
+• National College Robot Competition ROBOCON(2023, National First Prize)
+• Huazhong University of Science and Technology Outstanding Graduate(2023, University Level)  
+• Mathematical Contest In Modeling(2022, Honorable Mention)  
+• Outstanding student leader of the school(2020, University Level)
 
 ## Skills
 ---
@@ -67,9 +59,15 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
 • Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking
 
-## Research
+## Project
 ---
-### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](posts/SledNav)
+### [ACT Imitation Learning of Operate Box with ROS/Gazebo simulation](posts/GazeboSim)
+<div style="border: 0px solid #1182BF;padding: 4px;">
+    <p> <img class="left" src="/images/imitation/imitation_learning.png" width="500px" alt="sledrobotoutdoor" /> This experiment uses imitation learning in a ROS/Gazebo simulation to train a robot for box - operating tasks. The robot learns to grasp, move, and place colored cubes by mimicking human actions. The learning outcome is demonstrated in the simulation environment, with a window in the top - left showing the robot's - perspective image, aiding environmental perception and decision - making.</p>
+</div>
+
+
+<!-- ### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](posts/SledNav)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/slednav/sledrobotoutdoor.jpg" width="500px" alt="sledrobotoutdoor" /> Inspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system presents challenges arising from the nonholonomic constraints of the trailer, system underactuation, and hybrid interaction through the cable. To tackle these challenges, we develop a hybrid dynamics model that accounts for the cable's taut/slack status. Since it is computationally intense to directly optimize the trajectory, we first propose a search algorithm to compute a sub-optimal trajectory as the initial solution. Then, a novel collision avoidance constraint based on the geometric shapes of objects is proposed to formulate the trajectory optimization problem for the hybrid system. The proposed trajectory planning method is implemented on a Unitree A1 quadruped robot with a customized cable-trailer and validated through experiments.</p>
 </div>
@@ -93,7 +91,7 @@ I am a highly-motivated person interested in robotics. My research goal is to bu
 ### [Wheeled Robot for RoboMaster University Series Competition](posts/RobotWheeled)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/rm/hero2.jpg" width="200px" alt="hero"/> The RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts. It requires participants to go beyond their textbooks to form robotics teams, develop a diverse fleet of robots, and participate in team battles. I participated RMU2021 with my teammates as leader of the Electric Control Group. We design schemes, make circuit boards, and debug embedded programs. We tirelessly tested and optimized our robots, and endured countless sleepless nights. It' a memorable and cherished time.</p>
-</div>
+</div> -->
 
 
 ---
