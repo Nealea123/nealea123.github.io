@@ -63,7 +63,13 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 ---
 ### [ACT Imitation Learning of Operate Box with ROS/Gazebo simulation](posts/GazeboSim)
 <div style="border: 0px solid #1182BF;padding: 4px;">
-    <p> <img class="left" src="/images/imitation/imitation_learning.png" width="500px" alt="sledrobotoutdoor" /> This experiment uses imitation learning in a ROS/Gazebo simulation to train a robot for box - operating tasks. The robot learns to grasp, move, and place colored cubes by mimicking human actions. The learning outcome is demonstrated in the simulation environment, with a window in the top - left showing the robot's - perspective image, aiding environmental perception and decision - making.</p>
+    <p> <img class="left" src="/images/imitation/imitation_learning.png" width="500px" alt="sledrobotoutdoor" /> This experiment uses imitation learning in a ROS/Gazebo simulation to train a robot for box - operating tasks. The robot learns to grasp, move, and place colored cubes by mimicking human actions. The learning outcome is demonstrated in the simulation environment, with a window in the top - left showing the robot's - perspective image, aiding environmental perception and decision - making. This approach allows the robot to acquire efficient manipulation skills through observation and imitation, leveraging the high - fidelity simulation capabilities of ROS/Gazebo to facilitate the development of complex robotic behaviors in a controlled and safe setting.</p>
+</div>
+
+### [Data acquisition and training of humanoid dual-arm teleoperation based on VisionPro](posts/ActDeploy)
+<div style="border: 0px solid #1182BF;padding: 4px;">
+    <p> <img class="left" src="/images/teleop/teleop.png" width="500px" alt="sledrobotoutdoor" /> The image presents a human - like dual - arm remote operation data collection and training platform based on VisionPro. It includes a dual - arm remote operation experimental platform comprising a dual - depth - camera, a 7 - DOF robotic arm, and a 6 - DOF dexterous hand. VisionPro is used for multi - sensor fusion and tracking.
+    Data processing and collection involve acquiring and handling data from the sensors. The dexterous hand is reoriented to adjust its position and movement. Mechanical arm motion control manages the movement of the robotic arm. Real - time visual feedback provides immediate visual information for the operation. The collected dataset is used for imitation learning training, where the robot learns to imitate human actions and operations. Imitation learning strategy inference involves deducing the optimal strategies for the robot to perform tasks by mimicking human behavior. This system enables effective training and data collection for improving the performance of dual - arm remote operations, leveraging VisionPro's capabilities for sensor fusion and tracking to enhance the robot's ability to learn and execute complex tasks.</p>
 </div>
 
 

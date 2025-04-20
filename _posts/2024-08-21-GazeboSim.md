@@ -1,8 +1,8 @@
 ---
 title: "ACT Imitation Learning of Operate Box with ROS/Gazebo Simulation"
-date: 2024-07-06
+date: 2024-08-21
 layout: post
-categories: [reproduce, imitation learning]
+categories: [imitation learning, gazebo sim]
 tags: [imitation learning, operation, manipulation]
 ---
 

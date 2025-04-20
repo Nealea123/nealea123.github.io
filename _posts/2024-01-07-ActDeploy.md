@@ -1,33 +1,24 @@
 ---
-title: "ACT Imitation Learning of Operate Box with ROS/Gazebo Simulation"
-date: 2024-07-06
+title: "Data acquisition and training of humanoid dual-arm teleoperation based on VisionPro"
+date: 2025-01-07
 layout: post
-categories: [reproduce, imitation learning]
-tags: [imitation learning, operation, manipulation]
+categories: [imitation learning, teleoperation]
+tags: [imitation learning, operation, manipulation, dexterous operation, double arm]
 ---
 
 ## Introduction
-This experiment is carried out in the Gazebo simulation platform and focuses on the dual - arm robot operation handover and block - placement tasks based on action - block imitation learning. The main steps are as follows:
-
-**Data Collection:** First, a series of motion data are collected by having a human operator manually control a dual - arm robot to perform operation handover and block - placement tasks in the simulation environment. These data include joint angles and trajectory information.
-Model Training: An imitation learning model is trained using the collected data. The model can learn the action patterns of human operators, thereby learning to accurately perform dual - arm handovers and place blocks in designated positions.
-
-**Simulation Experiment:** The trained model is applied to the Gazebo simulation environment. In the simulation experiment, the dual - arm robot executes operation handover and block - placement tasks based on the learned strategy. The success rate and accuracy of the robot in completing the tasks are observed and evaluated through multiple experiments, and various data during the experiment are recorded for further analysis and model optimization.
-
-**Optimization and Improvement:** The model is adjusted and optimized according to the experimental results to improve the performance of the robot in actual operations, enabling it to complete tasks more stably and efficiently.
-This experiment aims to explore the effective control of dual - arm robots in complex operation tasks using imitation learning methods, providing a theoretical foundation and technical support for the future application of dual - arm robots in industrial scenarios.
+This system, based on VisionPro, focuses on data acquisition and training for humanoid dual - arm teleoperation. It uses a stereo depth camera and a 7 - DOF robotic arm with a 6 - DOF dexterous hand to capture human arm movements and translate them into robot actions. VisionPro handles multi - sensor fusion and hand tracking. The data is processed and used for imitation learning training, enabling the robot to learn and mimic human operations. The system also provides real - time visual feedback and controls the mechanical arm's movements, enhancing the efficiency and accuracy of dual - arm teleoperation
 
 ## Experiment
 <html>
 <body>
 <div style="text-align: center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-zkP5HXGnP4?si=oCwRMgIF-jOYYoM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <p style="margin-top: 10px;">chigui-2 motion video in May, 2022</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uNdFzHEoAiw?si=chbKWSzCLK_wEnLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </body>
 </html>
 
-The video shows a robot imitation learning experiment based on ROS/Gazebo. In the simulation environment, a robotic arm is operating a red and blue cube on the workbench. The "color_image" window in the top left corner displays the image information from the perspective of the robotic arm. This experiment aims to train the robot to complete cube manipulation tasks through imitation learning.
+This video shows a humanoid dual - arm teleoperation experiment platform based on VisionPro. It includes a dual - arm robotic system with a 7 - DOF robotic arm and a 6 - DOF dexterous hand for performing various tasks. The setup has a stereo depth camera for capturing visual data and VisionPro for multi - sensor fusion and hand tracking. The platform allows for data acquisition from human demonstrations, which is then used for training the robot through imitation learning. It also provides real - time visual feedback and controls the mechanical arm's movements, enhancing the efficiency and accuracy of dual - arm teleoperation. This system is useful for studying and improving humanoid robot manipulation skills in a laboratory environment.
 
 <!-- > A preprint of the paper is available at <kbd><a href="https://arxiv.org/abs/2404.12220" target="_blank" style="text-decoration: none; color: inherit;" >arXiv</a></kbd>
 {: .prompt-tip } -->
@@ -38,13 +29,11 @@ The video shows a robot imitation learning experiment based on ROS/Gazebo. In th
 <!-- ![Motivation](/images/slednav/sledinspir.bmp) -->
 
 ## Method
-![Training](/images/imitation/ACT_training.png)
+![Method](/images/teleop/teleop.png)
 
-The figure presents a training process based on action block imitation learning.  In Step 1, it samples data from a demo dataset, including RGB images and joints information, to form an action sequence.  Step 2 involves inferring z through a transformer encoder with self - attention blocks, embedding joints and action sequences.  In Step 3, it uses a ResNet18 and transformer encoder and decoder to predict the action sequence, incorporating position embeddings and linear layers to output the predicted actions.
+The image presents a human - like dual - arm remote operation data collection and training platform based on VisionPro. It includes a dual - arm remote operation experimental platform comprising a dual - depth - camera, a 7 - DOF robotic arm, and a 6 - DOF dexterous hand. VisionPro is used for multi - sensor fusion and tracking.
 
-![Test](/images/imitation/ACT_test.png)
-
-The figure illustrates a Transformer - based testing process for predicting action sequences. ResNet18 extracts features from images of four cameras. These features, combined with sinusoidal position embeddings, are fed into a Transformer encoder. The encoder processes them and passes to a Transformer decoder, which generates the predicted action sequence with the aid of position embeddings.
+Data processing and collection involve acquiring and handling data from the sensors. The dexterous hand is reoriented to adjust its position and movement. Mechanical arm motion control manages the movement of the robotic arm. Real - time visual feedback provides immediate visual information for the operation. The collected dataset is used for imitation learning training, where the robot learns to imitate human actions and operations. Imitation learning strategy inference involves deducing the optimal strategies for the robot to perform tasks by mimicking human behavior. This system enables effective training and data collection for improving the performance of dual - arm remote operations, leveraging VisionPro's capabilities for sensor fusion and tracking to enhance the robot's ability to learn and execute complex tasks.
 
 <!-- ![Experiment](/images/slednav/sledtest.bmp)
 
