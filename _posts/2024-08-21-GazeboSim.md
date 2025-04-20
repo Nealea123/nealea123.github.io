@@ -46,6 +46,10 @@ The figure presents a training process based on action block imitation learning.
 
 The figure illustrates a Transformer - based testing process for predicting action sequences. ResNet18 extracts features from images of four cameras. These features, combined with sinusoidal position embeddings, are fed into a Transformer encoder. The encoder processes them and passes to a Transformer decoder, which generates the predicted action sequence with the aid of position embeddings.
 
-<!-- ![Experiment](/images/slednav/sledtest.bmp)
+## Others
+![SAM](/images/imitation/fruits.png)
 
+This picture shows the selection box for identifying fruit types through owlvit, then determining the specific outline of the fruit through SAM, finally conducting video tracking through XMem, and finally determining the position of the fruit through point cloud recognition of the depth image and then picking it.
+
+<!-- ![Experiment](/images/slednav/sledtest.bmp)
 **Experiment result**: tractor average speed **<font color="red">≈1m/s</font>**, trailer position error **<font color="red"><10cm</font>**, and trailer yaw angle error **<font color="red"><5.25°</font>** (calculated by motion capture system) -->
