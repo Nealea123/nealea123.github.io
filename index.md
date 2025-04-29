@@ -47,17 +47,17 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 ## Awards & Honors
 ---
 • National College Robot Competition ROBOCON(2024, Second Place of National First Prize)  
-• National College Robot Competition ROBOCON(2023, National First Prize)
+• National College Robot Competition ROBOCON(2023, National First Prize)  
 • Huazhong University of Science and Technology Outstanding Graduate(2023, University Level)  
 • Mathematical Contest In Modeling(2022, Honorable Mention)  
-• Outstanding student leader of the school(2020, University Level)
+• Outstanding student leader of the school(2020, University Level)  
 
 ## Skills
 ---
 • Software: MATLAB, Altium Designer, Keil, SolidWorks  
-• Programming: C/C++, Python for Linux(ROS)
+• Programming: C/C++, Python for Linux(ROS)  
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
-• Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking
+• Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking  
 
 ## Research
 ---
