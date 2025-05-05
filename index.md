@@ -79,7 +79,10 @@ I am a highly-motivated person interested in robotics. My research goal is to es
     Data processing and collection involve acquiring and handling data from the sensors. The dexterous hand is reoriented to adjust its position and movement. Mechanical arm motion control manages the movement of the robotic arm. Real - time visual feedback provides immediate visual information for the operation. The collected dataset is used for imitation learning training, where the robot learns to imitate human actions and operations. Imitation learning strategy inference involves deducing the optimal strategies for the robot to perform tasks by mimicking human behavior. This system enables effective training and data collection for improving the performance of dual - arm remote operations, leveraging VisionPro's capabilities for sensor fusion and tracking to enhance the robot's ability to learn and execute complex tasks.</p>
 </div>
 
-
+### [Piper_Hil](posts/PiperHil)
+<div style="border: 0px solid #1182BF;padding: 4px;">
+    <p> <img class="left" src="/images/hil/hil_serl.png" width="500px" alt="sledrobotoutdoor" />.</p>
+</div>
 <!-- ### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](posts/SledNav)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/slednav/sledrobotoutdoor.jpg" width="500px" alt="sledrobotoutdoor" /> Inspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system presents challenges arising from the nonholonomic constraints of the trailer, system underactuation, and hybrid interaction through the cable. To tackle these challenges, we develop a hybrid dynamics model that accounts for the cable's taut/slack status. Since it is computationally intense to directly optimize the trajectory, we first propose a search algorithm to compute a sub-optimal trajectory as the initial solution. Then, a novel collision avoidance constraint based on the geometric shapes of objects is proposed to formulate the trajectory optimization problem for the hybrid system. The proposed trajectory planning method is implemented on a Unitree A1 quadruped robot with a customized cable-trailer and validated through experiments.</p>
