@@ -54,8 +54,8 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 
 ## Skills
 ---
-• Software: MATLAB, Altium Designer, Keil, SolidWorks  
-• Programming: C/C++, Python for Linux(ROS)  
+• Software: GAZEBO, MUJOCO, Isaac Sim, MATLAB, Altium Designer, Keil, SolidWorks  
+• Programming: Pytorch, JAX, C/C++, Python for Linux(ROS)  
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
 • Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking  
 
