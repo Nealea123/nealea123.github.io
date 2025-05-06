@@ -2,8 +2,8 @@
 title: "Data acquisition and training of humanoid dual-arm teleoperation based on VisionPro"
 date: 2025-01-07
 layout: post
-categories: [imitation learning, teleoperation]
-tags: [imitation learning, operation, manipulation, dexterous operation, double arm]
+categories: [Imitation Learning, Teleoperation]
+tags: [Imitation Learning, Operation, Manipulation, Dexterous Operation, Double Arm]
 ---
 
 ## Introduction

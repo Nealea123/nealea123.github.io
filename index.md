@@ -59,19 +59,16 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 • Engineering: Circuit/PCB Design and Debug, Mechanical Assembly  
 • Soft Skills: Planned, Responsible, Organized, Self-Motivating, Teamwork, Adaptability, Analytical Thinking  
 
-## Research
----
-### [Prescribed-Time Robust Synchronization of Networked Heterogeneous Euler-Lagrange Systems](posts/ArmPaper)
-<div style="border: 0px solid #1182BF;padding: 4px;">
-    <p> <img class="left" src="/images/arm/arm.png" width="500px" alt="sledrobotoutdoor" /> In this paper, we propose a prescribed-time synchronization (PTS) algorithm for networked Euler-Lagrange systems subjected to external disturbances. Notably, the system matrix and the state of the leader agent are not accessible to all agents. The algorithm consists of distributed prescribed-time observers and local prescribed-time tracking controllers, dividing the PTS problem into prescribed-time convergence of distributed estimation errors and local tracking errors. Unlike most existing prescribed-time control methods, which achieve prescribed-time convergence by introducing specific time-varying gains and adjusting feedback values, we establish a class of KT functions and incorporate them into comparison functions to represent time-varying gains. By analyzing the properties of class KT and comparison functions, we ensure the prescribed-time convergence of distributed estimation errors and local tracking errors, as well as the uniform boundedness of internal signals in the closed-loop systems. External disturbances are handled and dominated by the time-varying gains that tend to infinity as time approaches the prescribed time, while the control signal is still guaranteed to be bounded. Finally, a numerical example and a practical experiment demonstrate the effectiveness and innovation of the algorithm.</p>
-</div>
+
 
 ## Project
 ---
-### [ACT Imitation Learning of Operate Box with ROS/Gazebo simulation](posts/GazeboSim)
+
+### [Long-order operation tasks for skill reinforcement learning of residual hypernetworks](posts/PiperHil)
 <div style="border: 0px solid #1182BF;padding: 4px;">
-    <p> <img class="left" src="/images/imitation/imitation_learning.png" width="500px" alt="sledrobotoutdoor" /> This experiment uses imitation learning in a ROS/Gazebo simulation to train a robot for box - operating tasks. The robot learns to grasp, move, and place colored cubes by mimicking human actions. The learning outcome is demonstrated in the simulation environment, with a window in the top - left showing the robot's - perspective image, aiding environmental perception and decision - making. This approach allows the robot to acquire efficient manipulation skills through observation and imitation, leveraging the high - fidelity simulation capabilities of ROS/Gazebo to facilitate the development of complex robotic behaviors in a controlled and safe setting.</p>
+    <p> <img class="left" src="/images/hil/hil_hyper.png" width="500px" alt="sledrobotoutdoor" />A reinforcement learning system based on residual hypernetwork pools and real-time human demonstrations is proposed to achieve robust learning for long-order and complex arm operation tasks. This system enables the robotic arm to continuously try and explore through reinforcement learning. It first trains the basic model for grasping, and then learns different branch skills through the hypernetwork pool. Under the real-time teaching of the operator, it acquires more refined operation skills and features high robustness and a 100% success rate.</p>
 </div>
+
 
 ### [Data acquisition and training of humanoid dual-arm teleoperation based on VisionPro](posts/ActDeploy)
 <div style="border: 0px solid #1182BF;padding: 4px;">
@@ -79,10 +76,25 @@ I am a highly-motivated person interested in robotics. My research goal is to es
     Data processing and collection involve acquiring and handling data from the sensors. The dexterous hand is reoriented to adjust its position and movement. Mechanical arm motion control manages the movement of the robotic arm. Real - time visual feedback provides immediate visual information for the operation. The collected dataset is used for imitation learning training, where the robot learns to imitate human actions and operations. Imitation learning strategy inference involves deducing the optimal strategies for the robot to perform tasks by mimicking human behavior. This system enables effective training and data collection for improving the performance of dual - arm remote operations, leveraging VisionPro's capabilities for sensor fusion and tracking to enhance the robot's ability to learn and execute complex tasks.</p>
 </div>
 
-### [Piper_Hil](posts/PiperHil)
+
+### [ACT Imitation Learning of Operate Box with ROS/Gazebo simulation](posts/GazeboSim)
 <div style="border: 0px solid #1182BF;padding: 4px;">
-    <p> <img class="left" src="/images/hil/hil_serl.png" width="500px" alt="sledrobotoutdoor" />.</p>
+    <p> <img class="left" src="/images/imitation/imitation_learning.png" width="500px" alt="sledrobotoutdoor" /> This experiment uses imitation learning in a ROS/Gazebo simulation to train a robot for box - operating tasks. The robot learns to grasp, move, and place colored cubes by mimicking human actions. The learning outcome is demonstrated in the simulation environment, with a window in the top - left showing the robot's - perspective image, aiding environmental perception and decision - making. This approach allows the robot to acquire efficient manipulation skills through observation and imitation, leveraging the high - fidelity simulation capabilities of ROS/Gazebo to facilitate the development of complex robotic behaviors in a controlled and safe setting.</p>
 </div>
+
+## Research
+---
+
+### [Prescribed-Time Robust Synchronization of Networked Heterogeneous Euler-Lagrange Systems](posts/ArmPaper)
+<div style="border: 0px solid #1182BF;padding: 4px;">
+    <p> <img class="left" src="/images/arm/arm.png" width="500px" alt="sledrobotoutdoor" /> In this paper, we propose a prescribed-time synchronization (PTS) algorithm for networked Euler-Lagrange systems subjected to external disturbances. Notably, the system matrix and the state of the leader agent are not accessible to all agents. The algorithm consists of distributed prescribed-time observers and local prescribed-time tracking controllers, dividing the PTS problem into prescribed-time convergence of distributed estimation errors and local tracking errors. Unlike most existing prescribed-time control methods, which achieve prescribed-time convergence by introducing specific time-varying gains and adjusting feedback values, we establish a class of KT functions and incorporate them into comparison functions to represent time-varying gains. By analyzing the properties of class KT and comparison functions, we ensure the prescribed-time convergence of distributed estimation errors and local tracking errors, as well as the uniform boundedness of internal signals in the closed-loop systems. External disturbances are handled and dominated by the time-varying gains that tend to infinity as time approaches the prescribed time, while the control signal is still guaranteed to be bounded. Finally, a numerical example and a practical experiment demonstrate the effectiveness and innovation of the algorithm.</p>
+</div>
+
+
+
+
+
+
 <!-- ### [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](posts/SledNav)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/slednav/sledrobotoutdoor.jpg" width="500px" alt="sledrobotoutdoor" /> Inspired by the utilization of dogs in sled-pulling for transportation, we introduce a cable-trailer system with a quadruped robot. The motion planning of the proposed robot system presents challenges arising from the nonholonomic constraints of the trailer, system underactuation, and hybrid interaction through the cable. To tackle these challenges, we develop a hybrid dynamics model that accounts for the cable's taut/slack status. Since it is computationally intense to directly optimize the trajectory, we first propose a search algorithm to compute a sub-optimal trajectory as the initial solution. Then, a novel collision avoidance constraint based on the geometric shapes of objects is proposed to formulate the trajectory optimization problem for the hybrid system. The proposed trajectory planning method is implemented on a Unitree A1 quadruped robot with a customized cable-trailer and validated through experiments.</p>
