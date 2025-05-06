@@ -38,11 +38,11 @@ The video shows a robot imitation learning experiment based on ROS/Gazebo. In th
 <!-- ![Motivation](/images/slednav/sledinspir.bmp) -->
 
 ## Method
-![Training](/images/imitation/ACT_training.png)
+<!-- ![Training](/images/imitation/ACT_training.png)
 
-The figure presents a training process based on action block imitation learning.  In Step 1, it samples data from a demo dataset, including RGB images and joints information, to form an action sequence.  Step 2 involves inferring z through a transformer encoder with self - attention blocks, embedding joints and action sequences.  In Step 3, it uses a ResNet18 and transformer encoder and decoder to predict the action sequence, incorporating position embeddings and linear layers to output the predicted actions.
+The figure presents a training process based on action block imitation learning.  In Step 1, it samples data from a demo dataset, including RGB images and joints information, to form an action sequence.  Step 2 involves inferring z through a transformer encoder with self - attention blocks, embedding joints and action sequences.  In Step 3, it uses a ResNet18 and transformer encoder and decoder to predict the action sequence, incorporating position embeddings and linear layers to output the predicted actions. -->
 
-![Test](/images/imitation/ACT_test.png)
+![Test](/images/imitation/ACT_inference.png)
 
 The figure illustrates a Transformer - based testing process for predicting action sequences. ResNet18 extracts features from images of four cameras. These features, combined with sinusoidal position embeddings, are fed into a Transformer encoder. The encoder processes them and passes to a Transformer decoder, which generates the predicted action sequence with the aid of position embeddings.
 
