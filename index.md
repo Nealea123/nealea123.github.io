@@ -64,7 +64,7 @@ I am a highly-motivated person interested in robotics. My research goal is to es
 ## Project
 ---
 
-### [MoRI: Mixture of RL&IL Experts for Long-Horizon Manipulation Tasks](posts/MoRI)
+### [MoRI: Mixture of RL and IL Experts for Long-Horizon Manipulation Tasks](posts/MoRI)
 <div style="border: 0px solid #1182BF;padding: 4px;">
     <p> <img class="left" src="/images/mori/mori.png" width="500px" alt="sledrobotoutdoor" />Reinforcement Learning (RL) and Imitation Learning (IL) are the standard frameworks for policy acquisition in manipulation. While IL offers efficient policy derivation, it suffers from compounding errors and distribution shift. Conversely, RL facilitates autonomous exploration but is frequently hindered by low sample efficiency and the high cost of trial and error. Since existing hybrid methods often struggle with complex tasks, we introduce Mixture of RL and IL Experts (MoRI). This system dynamically switches between IL and RL experts based on the variance of expert actions to handle coarse movements and fine-grained manipulations. MoRI employs an offline pre-training stage followed by online fine-tuning to accelerate convergence. To maintain exploration safety and minimize human intervention, the system applies IL-based regularization to the RL component. Evaluation across four complex real-world tasks shows that MoRI achieves an average success rate of 97.5% within 2 to 5 hours of fine-tuning. Compared to baseline RL algorithms, MoRI reduces human intervention by 85.8% and shortens convergence time by 21%, demonstrating its capability in robotic manipulation.</p>
 </div>
