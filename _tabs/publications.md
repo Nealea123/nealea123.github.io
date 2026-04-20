@@ -5,15 +5,22 @@ order: 1
 ---
 
 <!-- ## Manuscript
----
-  
-• **W. Zhang**, S. Xu, G. Zuo, and L. Zhu, [Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot](https://arxiv.org/abs/2404.12220).   -->
+--- -->
+
+
 
 ## Journal Paper
 ---
-• G. Zuo, **Y. Xu**, M. Li, L. Zhu and H. Ding, [Prescribed-Time Robust Synchronization of Networked Heterogeneous Euler-Lagrange Systems](https://ieeexplore.ieee.org/document/10879556) in IEEE Transactions on Automation Science and Engineering, vol. 22, pp. 12160-12172, 2025, doi: 10.1109/TASE.2025.3541052. 
 
-• J. Du, Y. Liang, H. Tao, **Y. Xu**, L. Zhu and H. Ding, [Load Sharing in Distributed Collaborative Manipulation](https://ieeexplore.ieee.org/document/10884853) in IEEE Robotics and Automation Letters, vol. 10, no. 4, pp. 3390-3397, April 2025, doi: 10.1109/LRA.2025.3541924.
+• **Yaohang Xu**, Lianjie Ma, Gewei Zuo, Wentao Zhang, Lijun Zhu, Han Ding. ["MoRI: Mixture of RL and IL Experts for Long-Horizon Manipulation Tasks."](https://arxiv.org/abs/2604.10165) arXiv preprint arXiv:2604.10165 (2026). (RA-L, Under Review)
+
+• **Yaohang Xu**, Wentao Zhang, Bolin Li, Gewei Zuo, Lijun Zhu, Han Ding. ["Tracking Control for Constrained Euler-Lagrange Systems: Theory and Experiments."](https://ieeexplore.ieee.org/abstract/document/11301272/) 2025 25th International Conference on Control, Automation and Systems (ICCAS). IEEE, 2025.
+
+• Gewei Zuo, **Yaohang Xu**, Mengmou Li, Lijun Zhu, Han Ding. ["Prescribed-time robust synchronization of networked heterogeneous Euler-Lagrange systems."](https://ieeexplore.ieee.org/abstract/document/10879556) IEEE Transactions on Automation Science and Engineering (2025).
+
+• Jian Su, **Yaohang Xu**, Dong Xie, Gewei Zuo, Bolin Li, Lijun Zhu, Han Ding. ["Tube-Based Geometric Model Predictive Tracking Control for Robot Manipulators in Task Space with Disturbances."](https://ieeexplore.ieee.org/abstract/document/11354547) IEEE Transactions on Automation Science and Engineering (2026).
+
+• Jinhui Du, Yujun Liang, Hongyuan Tao, **Yaohang Xu**, Lijun Zhu, Han Ding. ["Load Sharing in Distributed Collaborative Manipulation."](https://ieeexplore.ieee.org/abstract/document/10884853) IEEE Robotics and Automation Letters (2025).
 
 <!-- ## Conference Papers
 ---
