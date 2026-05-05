@@ -1,6 +1,10 @@
 ---
 layout: page
 ---
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Yuji+Mai&display=swap');
+.kai-name { font-family: "Ma Shan Zheng", 'KaiTi', 'STKaiti', 'KaiTi TC', 'DFKai-SB', serif; }
+</style>
 # Yaohang Xu (许耀航)
 I am a highly-motivated person interested in robotics. My research goal is to establish a robot system with high generalization, robustness, intelligence and the ability to independently complete complex and dexterous long-series operation tasks. So my research is the intersection of robots, dexterous operation, large models and reinforcement learning. Since 2023, I have been pursuing a M.Sc. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) under the supervision of Prof. Lijun Zhu. I received my B.Eng. in School of Artificial Intelligence and Automation at Huazhong University of Science and Technology (HUST) in 2023.
 
@@ -43,7 +47,55 @@ I am a highly-motivated person interested in robotics. My research goal is to es
         </ul>
     </details>
 </div> -->
+<style>
+.news-box {
+  border: 0px solid #1182BF;
+  padding: 8px;
+  max-height: 250px; /* Adjust height as needed */
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: transparent;
+}
+.news-box h3 { margin-top: 0; }
+.news-box ul { margin: 6px 0 12px 18px; padding-right: 8px; }  
+.news-box details { margin-top: 8px; }
+/* Scrollbar styling (WebKit) */
+.news-box::-webkit-scrollbar { width: 10px; }
+.news-box::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+.news-box::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 10px; }
+/* FireFox */
+.news-box { scrollbar-width: thin; scrollbar-color: #c1c1c1 #f1f1f1; }
+@media (max-width: 600px) {
+  .news-box { max-height: 200px; }
+}
+</style>
 
+<style>
+.internship-row { --internship-gap: 28px; display: flex; gap: var(--internship-gap); align-items: flex-start; margin: 12px 0; height: 120px; overflow: hidden; }
+.internship-content p { margin: 0 0 3px; }
+.internship-img {
+    flex: 0 0 150px; width: 150px; height: 120px; border-radius: 4px; background: #fff; padding: 6px; box-sizing: border-box;
+    display: flex; align-items: center; justify-content: center; }
+.internship-img img {
+    display: block;
+    width: auto; height: auto;
+    max-width: 138px;  /* 150px - 12px padding */
+    max-height: 108px; /* 120px - 12px padding */
+    object-fit: contain; }
+.internship-content { flex: 1;
+  padding-top: 8px;  /* like vspace{8px} */
+  font-size: 1.0rem;
+  line-height: 1.15;
+  color: inherit;
+}
+.internship-title { color: #1182BF; font-weight: 700; margin: 2px 0 6px; font-size: 1.2rem; }
+@media (max-width: 700px) {
+    .internship-row { --internship-gap: 12px; flex-direction: column; height: auto; overflow: visible; }
+    .internship-img { flex: 0 0 auto; width: 100%; height: 120px; padding: 6px; }
+    .internship-content { font-size: 0.9rem; line-height: 1.25; }
+}
+</style>
 ## Awards & Honors
 ---
 • National College Robot Competition ROBOCON(2024, Second Place of National First Prize)  
